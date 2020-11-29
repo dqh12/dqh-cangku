@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0  auto;
+    background-color: black;
+    width: 1500px;
+    height: 2500px;
+    overflow-x: hidden;
+    
+}
+.topnav{
+    overflow: hidden;
+    background-color: black;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    position: relative;
+    right: -370px;
+    top: 4px;   
+}
+.topnav a:hover{
+    background-color: white;
+    color: black;
+}
+.sheng a{
+    font-size: 180%;
+    position: relative;
+    top: -3px;
+}
+.biaoti a{
+    font-size: 200%;
+    position: absolute;
+    top: 9px;
+    left: 180px;
+    color: white;
+    text-decoration: none;
+}
+.search-1{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 400px;
+    top: -15px;
+}
+.search-2{
+    height: 30px;
+    position: relative;
+    left: 400px;
+    top: -15px;
+    cursor: pointer;
+}
+.tupian{
+    position: relative;
+    left: 520px;
+    top: 1px;
+}
+.text1{
+    color: white;
+    text-align: center;
+    font-size: 180%;
+}
+.topnav1 a{
+    float: left;
+    margin: 0 30px;
+    width: 230px;  
+    height: 230px;
+    position: relative; 
+    left: 20px;
+    background-color: blueviolet;
+}
+.bg1 a:hover{
+    background-color: rgb(45, 245, 6);
+}
+.bg2 a:hover{
+    background-color: rgb(11, 220, 248);
+}
+.bg3 a:hover{
+    background-color: rgb(245, 209, 6);
+}
+.bg4 a:hover{
+    background-color: rgb(245, 6, 6);
+}
+.bg5 a:hover{
+    background-color: rgb(224, 228, 11);
+}
+.topnav2 img{
+    float: left;
+    margin:0 115px;
+    position: relative;
+    left: 15px;
+    top: -150px;
+}
+.topnav3{
+    text-align: center;
+    color: white;
+}
+.t1{
+    font-size: 200%;
+}
+.t2{
+    font-size: 100%;
+    opacity: 0.5;
+}
+.topnav4{
+    width: 1200px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    left: 400px;
+    top: -5px;
+}
+.topnav4 img{
+    float: left;
+    margin:0 50px;
+}
+.topnav5{
+    width: 1500px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    left: 165px;
+    top: -5px; 
+   
+}
+
+.t4{
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+    float: left;
+}
+.t5{
+    width: 50px;
+    height: 200px;
+    margin: 60px;
+    float: left;
+}
+.text2{
+    font-size: 80%;
+    position: relative; 
+    top: -30px; 
+    left: 220px;
+    color: white;
+}
+.text3{
+    position: relative;
+    right: 500px;
+    top: -40px;
+    font-size: 60%;
+    color: white;
+}
+.tu-1 img{
+    position: relative;
+    top: 0px;
+    left: 165px;
+}
+.topnav6{
+    width: 500px;
+    height: 500px;
+}
+.text4{
+    font-size: 150%;
+    opacity: 1.5;
+    color: white;
+}
+.text5{
+    font-size: 100%;
+    opacity: 0.5;
+    color: white;
+}
+.text5 a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin:0 3px;
+}
+.text5 a:hover{
+    background-color: rgba(91, 238, 5, 0.473);
+}
+.tt1{
+    font-size: 150%;
+    color: white;
+}
+.text6{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: -520px;
+    left: 900px;
+}
+
+.text6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    opacity: 0.5;
+    margin: 5px 5px;
+    float: left;
+}
+.text6 a:hover{
+    background-color: turquoise;
+}
+.text7 a:hover{
+    background-color: teal;
+}
+.text7 a{
+    text-decoration: none;
+    margin: 0 4px;
+    font-size: 250%;
+    position: relative;
+    top: 10px;
+}
+.text7{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: -1000px;
+    left: 1000px;
+}
+.ttt1{
+    float: left;
+    position: relative;
+    top: 20px;
+    margin: 20px;
+}
+.ttt1:hover .yincang{
+    display: block;
+}
+.yincang{
+    width: 20px;
+   display: none;
+   position: relative;
+   top: -250px;
+    
+    
+}
+.gotop img{
+    position: relative;
+    top: 8px;
+    left: 6px;
+}
+#gotop1{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 65px;
+    right: 50px;
+    background: black;
+    cursor: pointer;
+}
+#gotop2{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 140px;
+    right: 50px;
+    background: black;
+    cursor: pointer;
+}
+#gotop3{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 215px;
+    right: 50px;
+    background: black;
+    cursor: pointer;
+}
+

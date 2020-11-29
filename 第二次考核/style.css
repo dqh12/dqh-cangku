@@ -1,0 +1,413 @@
+    * {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .biao {
+        position: relative;
+        left: 100px;
+        top: 3px;
+    }
+    
+    body {
+        width: 1519.2px;
+        height: 2180px;
+        overflow-x: hidden;
+    }
+    
+    .topnav {
+        width: 1519.2px;
+        height: 100px;
+        position: relative;
+        top: 20px;
+        right: 40px;
+    }
+    
+    .daohanglan img {
+        position: relative;
+        top: 11px;
+    }
+    
+    .daohanglan {
+        position: relative;
+        top: -50px;
+        left: 650px;
+        font-size: 85%;
+        z-index: 100000;
+    }
+    
+    .daohanglan a {
+        text-decoration: none;
+        color: black;
+        padding: 12px 15px;
+    }
+    
+    .daohanglan a:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    .daohanglan img:hover {
+        background-color: black;
+    }
+    
+    .dropbtn {
+        background-color: white;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 140px;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 6px 10px;
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: black;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .search-1 {
+        width: 150px;
+        height: 30px;
+        border-radius: 30%;
+        position: relative;
+    }
+    
+    .search-2 {
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .wrap {
+        width: 1519.2px;
+        height: 600px;
+        position: relative;
+    }
+    
+    .list {
+        width: 1519.2px;
+        height: 600px;
+        list-style: none;
+        position: relative;
+        padding-left: 0px;
+    }
+    
+    .item img {
+        cursor: pointer;
+    }
+    
+    .item {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all .6s;
+    }
+    
+    .btn {
+        width: 70px;
+        height: 80px;
+        font-size: 240%;
+        border-radius: 80%;
+        border-style: none;
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 260px;
+        z-index: 110;
+        cursor: pointer;
+    }
+    
+    #goPre {
+        left: 7%;
+    }
+    
+    #goNext {
+        right: 7%;
+    }
+    
+    .item.active {
+        opacity: 1;
+        z-index: 100;
+    }
+    
+    .pointlist {
+        padding-left: 0px;
+        list-style: none;
+        position: absolute;
+        bottom: 15px;
+        left: 45%;
+        z-index: 110;
+    }
+    
+    .point {
+        width: 12px;
+        height: 12px;
+        background-color: rgb(0, 0, 0, 0.6);
+        border-radius: 100%;
+        float: left;
+        margin: 3px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgba(225, 225, 255, 0);
+        cursor: pointer;
+    }
+    
+    .point.active {
+        background-color: white;
+    }
+    
+    .clj-style img {
+        position: relative;
+    }
+    
+    .clj-style a {
+        text-decoration: none;
+        color: white;
+        border: 2px solid #a1a1a1;
+        padding: 5px 14px;
+        width: 140px;
+        z-index: 10;
+        margin: 0 3px;
+        position: relative;
+        top: -50px;
+        right: 300px;
+    }
+    
+    .clj-style a:hover {
+        background-color: black;
+    }
+    
+    .jiange {
+        width: 1519.2px;
+        height: 30px;
+        position: relative;
+    }
+    
+    .photo-container {
+        width: 100%;
+        height: 700px;
+    }
+    
+    .photo-container ul {
+        float: left;
+    }
+    
+    .photo {
+        width: 50%;
+        height: 600px;
+    }
+    
+    .photo img {
+        width: 60%;
+        height: 45%;
+        position: relative;
+        left: 100px;
+    }
+    
+    .photo2 {
+        width: 45%;
+        height: 600px;
+    }
+    
+    .photo2 ul {
+        margin: 5px 0;
+    }
+    
+    .ig img {
+        position: relative;
+        top: -287px;
+        left: 420px;
+        width: 6.15%;
+        height: 5%;
+    }
+    
+    .img2 img {
+        width: 60%;
+    }
+    
+    #img22 img {
+        width: 65%;
+    }
+    
+    .xiaophoto2 {
+        width: 700px;
+        height: 285px;
+    }
+    
+    .photo-container3 {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .photo3 {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .img3 img {
+        width: 60%;
+        height: 55%;
+        position: relative;
+        left: 100px;
+    }
+    
+    .xg {
+        width: 700px;
+        height: 600px;
+    }
+    
+    .photo-container3 ul {
+        float: left;
+        margin: 0 20px;
+        overflow: hidden;
+    }
+    
+    .container-text {
+        width: 100%;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: relative;
+    }
+    
+    .item-text1 {
+        color: white;
+        opacity: 0.8;
+    }
+    
+    .big-container {
+        width: 100%;
+        height: 200px;
+        padding: 0 5px;
+        position: absolute;
+        top: 10%;
+    }
+    
+    .big-container ul {
+        float: left;
+    }
+    
+    .container-style1 {
+        width: 50%;
+        height: 200px;
+        text-align: center;
+    }
+    
+    .container-style2 {
+        width: 50%;
+        height: 200px;
+        text-align: center;
+    }
+    
+    .container-style3 {
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        bottom: -5px;
+        text-align: center;
+    }
+    
+    .container-style3 img {
+        border: none;
+        vertical-align: middle;
+    }
+    
+    .container-style3 li {
+        margin: 10px 0;
+    }
+    
+    .long-container1 {
+        width: 100%;
+        height: 20px;
+    }
+    
+    .long-container2 {
+        width: 100%;
+        height: 60px;
+    }
+    
+    .dianji {
+        padding: 8px 0px;
+        width: 38px;
+        text-align: center;
+        position: fixed;
+        right: 0%;
+        top: 40%;
+        z-index: 1000000;
+        writing-mode: vertical-rl;
+        background-color: rgb(199, 155, 104);
+        font-size: 20px;
+    }
+    
+    .dianji:hover {
+        cursor: pointer;
+        background-color: rgb(249, 222, 183);
+        color: #fff;
+    }
+    
+    #div1 {
+        background-color: rgb(251, 99, 126);
+        color: #fff;
+    }
+    
+    #fubiao {
+        width: 0px;
+        height: 567px;
+        z-index: 2000000;
+        background-color: #fff;
+        font-size: 15px;
+        text-align: center;
+        position: fixed;
+        right: 0px;
+        top: 20%;
+        border-radius: 2px;
+        line-height: 40px;
+        transition: 0.5s;
+    }
+    
+    #fubiao a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #fubiao a:hover {
+        background-color: transparent;
+        color: #CC0000;
+    }
+    
+    #fubiao img {
+        border: none;
+        vertical-align: middle;
+    }
+    
+    .closebtn {
+        font-size: 200%;
+        cursor: pointer;
+    }

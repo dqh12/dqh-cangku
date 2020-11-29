@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>段棋航的网页</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="biao">
+            <a href="#"><img src="标志.png"></a>
+        </div>
+        <div class="daohanglan">
+            <div class="dropdown">
+                <button class="dropbtn"><img src="地球.png" alt="图片" width="32" height="32"></button>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">中文</a>
+                </div>
+            </div>
+            <a href="#">首页</a>
+            <div class="dropdown">
+                <button class="dropbtn"> <a href="#">主题键盘</a></button>
+                <div class="dropdown-content">
+                    <img src="https://cn.varmilo.com/keyboardproscenium/img/lun1.png" alt="图片" width="160" height="45">
+                    <a href="#">20%主题产品</a>
+                    <a href="#">65%主题产品</a>
+                    <a href="#">80%主题产品</a>
+                    <a href="#">100%主题产品</a>
+                    <a href="#">110%主题产品</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="#">私人定制</a></button>
+                <div class="dropdown-content">
+                    <img src="https://cn.varmilo.com/keyboardproscenium/img/custorn/custornimg.jpg" alt="图片" width="160" height="55">
+                    <a href="#">65%私人订制</a>
+                    <a href="#">80%私人订制</a>
+                    <a href="#">110%私人订制</a>
+                </div>
+            </div>
+            <a href="#">技术支持</a>
+            <a href="#">商务合作</a>
+            <a href="#">常见问题FAQ</a>
+            <input type="text" placeholder="搜索..." class="search-1">
+            <button class="search-2"><svg t="1603800557229" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2102" width="15" height="15"><path d="M937.798221 769.855766 714.895525 546.869159c23.821545-45.681412 37.589107-97.495498 37.589107-152.564721 0-182.559872-148.560524-331.078441-331.079464-331.078441-182.623317 0-331.098907 148.517545-331.098907 331.078441 0 182.559872 148.47559 331.078441 331.098907 331.078441 60.575634 0 117.27089-16.647145 166.206416-45.221948L807.552831 900.100132c17.938558 17.939581 41.551348 26.867928 65.12423 26.867928s47.182602-8.928347 65.123206-26.867928c17.396205-17.396205 27.033703-40.550555 27.033703-65.164139C964.831924 810.321386 955.194426 787.16806 937.798221 769.855766M133.027248 394.304438c0-158.989037 129.34795-288.358477 288.378943-288.358477 158.948105 0 288.3595 129.36944 288.3595 288.358477 0 99.206466-50.437739 186.899714-126.950344 238.795665-1.044796 0.416486-1.876744 1.252527-2.877537 1.835811-45.515636 30.03813-99.999528 47.727001-158.530596 47.727001C262.375198 682.662915 133.027248 553.336454 133.027248 394.304438M907.594315 869.896226c-19.273972 19.191084-50.562583 19.191084-69.836555 0L623.6995 655.797034c26.157753-20.274766 49.186236-44.305065 68.292386-71.421656l215.601406 215.683271c9.344832 9.262968 14.518668 21.694091 14.518668 34.877345S916.939147 860.551394 907.594315 869.896226" p-id="2103"></path><path d="M215.169059 387.79007c0 0 42.156122-211.011878 234.186693-224.946238C449.355753 162.843832 185.944458 131.555222 215.169059 387.79007" p-id="2104"></path></svg></button>
+            <a href="#">登录</a>
+            <a href="#">注册</a>
+        </div>
+    </div>
+    <div class="wrap">
+        <ul class="list">
+            <li class="item active"><img src="1.png" width="1519.2" height="600"></li>
+            <li class="item"><img src="2.png" width="1519.2" height="600"></li>
+            <li class="item"><img src="3.png" width="1519.2" height="600"></li>
+            <li class="item"><img src="4.png" width="1519.2" height="600"></li>
+            <li class="item"><img src="5.png" width="1519.2" height="600"></li>
+            <li class="item"><img src="6.png" width="1519.2" height="600"></li>
+            </li>
+        </ul>
+        <ul class="pointlist">
+            <li class="point active" data-index='0'></li>
+            <li class="point" data-index='1'></li>
+            <li class="point" data-index='2'></li>
+            <li class="point" data-index='3'></li>
+            <li class="point" data-index='4'></li>
+            <li class="point" data-index='5'></li>
+        </ul>
+        <button type="button" class="btn" id="goPre"><</button>
+        <button type="button" class="btn" id="goNext">></button>
+    </div>
+    <div class="clj-style">
+        <div class="jiange"></div>
+        <div class="photo-container">
+            <ul class="photo">
+                <li class="img1"><img src="20%.png" alt="图片"><a href="#">主题键盘></a></li>
+                <li class="img1"><img src="65%.png" alt="图片"><a href="#">主题键盘></a><a href="#">开始订制></a></li>
+            </ul>
+            <ul class="photo2">
+                <ul class="xiaophoto2">
+                    <li class="img2"><img src="40%.png" alt="图片"><a href="#">主题键盘></a><a href="#">开始订制></a></li>
+                    <li class="ig"><img src="text1.png"><img src="text2.png"></li>
+                </ul>
+                <li class="img2" id="img22"><img src="80%.png" alt="图片"><a href="#">主题键盘></a><a href="#">开始订制></a></li>
+            </ul>
+        </div>
+        <div class="photo-container3">
+            <div class="photo3">
+                <ul class="xg">
+                    <li class="img3"><img src="100%.png" alt="图片" width="80%" height="100%"><a href="#">主题键盘></a><a href="#">开始订制></a></li>
+                </ul>
+                <ul class="xg">
+                    <li class="img3"><img src="110%.png" alt="图片"><a href="#">主题键盘></a><a href="#">开始订制></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-text">
+        <div class="big-container">
+            <ul class="container-style1">
+                <li class="item-img"><img src="地址.png" alt="图片"></li>
+                <li class="item-text1">地址</li>
+                <li class="item-text1">深圳市光明新区公明办事处田寮社区第十工业区3栋二楼B区</li>
+            </ul>
+
+            <ul class="container-style2">
+                <li class="item-img"><img src="联系我们.png" alt="图片"></li>
+                <li class="item-text1">联系我们</li>
+                <li class="item-text1">电话:18926579789 邮箱:zhh52@zhihaihe.cn , zhh19@zhihaihe.cn (For English) 邮编：518132</li>
+            </ul>
+        </div>
+        <ul class="container-style3">
+            <li><img src="支付方式.png" alt="图片"></li>
+            <li class="item-text1">支付方式</li>
+            <div class="long-container1">
+                <li class="item-text1">微信<img src="微信.png" alt="图片" width="1.4%" height="1.4%">paypal<img src="P.png" alt="图片" width="1.4%" height="1.4%">支付宝<img src="支付宝.png" alt="图片" width="1.4%" height="1.4%"></li>
+            </div>
+            <div class="long-container2">
+                <li class="item-text1">
+                    <a href="#"><img src="警徽.gif" alt="图片" width="2.2%" height="2.2%"></a>深圳志海和科技有限公司</li>
+            </div>
+        </ul>
+    </div>
+    <button class="dianji" onclick="displaybiao()">联系咨询>>></button>
+    <div id="fubiao">
+        <div id="div1"><img src="电话.png" width="13%">咨询热线</div>
+        <a href="#">
+            <div id="div2">18926579789</div>
+        </a>
+        <div id="div1"><img src="小孩.png" width="16%">旺旺客服</div>
+        <div id="div2">樱桃:<img src="截图.gif"></div>
+        <div id="div2">橘子:<img src="截图.gif"></div>
+        <div id="div2">樱花:<img src="截图.gif"></div>
+        <div id="div2">青梨:<img src="截图.gif"></div>
+        <div id="div2">蓝莓:<img src="截图.gif"></div>
+        <div id="div2">锦鲤:<img src="截图.gif"></div>
+        <div id="div2">柠檬:<img src="截图.gif"></div>
+        <div id="div1"><img src="邮件.png" width="12%">邮箱联系</div>
+        <a href="#">
+            <div id="div2">售前咨询</div>
+        </a>
+        <a href="#">
+            <div id="div2">技术售后1 技术售后2</div>
+        </a>
+        <button class="closebtn" onclick="closebtn()"><div id="div3">>>></div></button>
+    </div>
+    <script type="text/javascript">
+        var items = document.getElementsByClassName('item'); //图片
+        var points = document.getElementsByClassName('point'); //点
+        var goNBtn = document.getElementById('goNext');
+        var goPBtn = document.getElementById('goPre');
+        var time = 0;
+        var index = 0; //index表示第几张图片在展示 ---》第index张图片有active这个类名
+        //第几个点在展示
+
+        var clearActive = function() {
+            for (var i = 0; i < items.length; i++) {
+                items[i].className = 'item';
+            }
+            for (var i = 0; i < points.length; i++) {
+                points[i].className = 'point';
+            }
+        }
+        var goIndex = function() {
+            clearActive();
+            console.log(index)
+            points[index].className = 'point active';
+            items[index].className = 'item active';
+        }
+
+        var goNext = function() {
+            if (index < 5) {
+                index++;
+            } else {
+                index = 0;
+            }
+            goIndex();
+        }
+
+        var goPre = function() {
+            if (index == 0) {
+                index = 5;
+            } else {
+                index--;
+            }
+            goIndex();
+        }
+
+        goNBtn.addEventListener('click', function() {
+            goNext();
+        })
+        goPBtn.addEventListener('click', function() {
+            goPre();
+        })
+
+        for (var i = 0; i < points.length; i++) {
+            points[i].addEventListener('click', function() {
+                var pointIndex = this.getAttribute('data-index');
+                index = pointIndex;
+                goIndex();
+            })
+        }
+        setInterval(function() {
+            time++;
+            if (time == 50) {
+                goNext();
+                time = 0;
+            }
+        }, 100)
+
+        function displaybiao() {
+            document.getElementById("fubiao").style.width = "200px";
+        }
+
+        function closebtn() {
+            document.getElementById("fubiao").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>
